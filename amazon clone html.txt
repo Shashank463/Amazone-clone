@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar1">
+            <div id="logo">
+                <a href="https://www.amazon.com/ref=nav_logo"></a>
+            </div>
+            <div id="locate">
+                <a href="#">Location</a>
+            </div>
+            <div class="search-group">
+                <select id="All">
+                    <option value="All Department">All Department</option>
+                    <option value="Arts and craft">Arts and craft</option>
+                    <option value="Stationary">Stationary</option>
+                    <option value="Mobiles">Mobiles</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Household">Household</option>
+                    <option value="Fashion">Fashion</option>
+                </select>
+                <input type="text" id="search-input" placeholder="Search Amazon">
+                <button id="search-button">Search</button>
+            </div>
+            <select name="Language" id="Language">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="German">German</option>
+                <option value="Deutsch">Deutsch</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Português">Português</option>
+            </select>
+            <a href="#">Sign In</a>
+            <a href="#">Cart</a>
+        </div>
+
+        <div class="navbar2">
+            <select name="Edit" id="Edit">
+                <option value="All">All</option>
+                <option value="Digital Content & Devices">Digital Content & Devices</option>
+                <option value="Shop by Department">Shop by Department</option>
+                <option value="Programs & Features">Programs & Features</option>
+                <option value="Help & Settings">Help & Settings</option>
+            </select>
+            <a href="#">Today's Deal</a>
+            <a href="#">Customer Service</a>
+            <a href="#">Registry</a>
+            <a href="#">Gift Card</a>
+            <a href="#">Sell</a>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="allmain">
+        <div id="one1">
+            <p>You are on amazon.com. You can also shop on amazon.in with millions of products and fast delivery. 
+                <a href="https://www.amazon.in/">Click here to go to amazon.in</a>
+            </p>
+            
+            <div id="box1"><h2>Gaming accessories</h2></div>
+            <div id="box2"><h2>Shop deals in Fashion</h2></div>
+            <div id="box3"><h2>Refresh your space</h2></div>
+            <div id="box4"><h2>Deals in PCs</h2></div>
+            <hr>
+            <div id="box5"><h2>New home arrivals under $50</h2></div>
+            <div id="box6"><h2>Toys under $25</h2></div>
+            <div id="box7"><h2>Beauty steals under $25</h2></div>
+            <div id="box8"><h2>Shop School Supplies</h2></div>
+            <hr>
+            <div id="box9"><h2>Best Sellers in Home & Kitchen</h2></div>
+            <hr>
+            <div id="box10"><h2>Best Sellers in Kitchen & Dining</h2></div>
+            <hr>
+            <div id="box11"><h2>Level up your beauty routine</h2></div>
+            <div id="box12"><h2>Shop activity trackers and smartwatches</h2></div>
+            <div id="box13"><h2>Have more fun with family</h2></div>
+            <div id="box14"><h2>Level up your gaming</h2></div>
+            <hr>
+            <div id="box15"><h2>Best Sellers in Sports & Outdoors</h2></div>
+            <hr>
+            <div id="box16"><h2>Top picks for India</h2></div>
+            <div id="box17"><h2>Fantastic Finds for Home</h2></div>
+            <div id="box18"><h2>Look your best this season</h2></div>
+            <div id="box19"><h2>Personal Care under $25</h2></div>
+            <hr>
+            <div id="box20"><h2>Player's paradise starts here</h2></div>
+        </div>
+        <hr>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="foot1">
+            <p1>See personalized recommendations</p1><br>
+            <button>Sign In</button><br>
+            <p2>New customer?</p2>
+            <button>Start here</button>
+        </div>
+        <div class="foot2">
+            <button>Back to top</button>
+        </div>
+        <div class="foot3">
+            <div id="f1">
+                <p3>Get to Know Us</p3>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About us</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </div>
+            <div id="f2">
+                <p4>Make Money with Us</p4>
+                <a href="#">Sell products on Amazon</a>
+                <a href="#">Sell on Amazon Business</a>
+                <a href="#">Sell apps on Amazon</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Self-Publish with Us</a>
+                <a href="#">Host an Amazon Hub</a>
+            </div>
+            <div id="f3">
+                <p4>Amazon Payment Products</p4>
+                <a href="#">Amazon Business Card</a>
+                <a href="#">Shop with Points</a>
+                <a href="#">Reload Your Balance</a>
+                <a href="#">Amazon Currency Converter</a>
+            </div>
+            <div id="f4">
+                <p4>Let Us Help You</p4>
+                <a href="#">Amazon and COVID-19</a>
+                <a href="#">Your Account</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Shipping Rates & Policies</a>
+                <a href="#">Returns & Replacements</a>
+                <a href="#">Manage Your Content and Devices</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+        <div class="foot4">
+            <p5>
+                Amazon Music | Stream millions of songs<br>
+                Amazon Ads | Reach customers wherever they spend their time<br>
+                6pm | Score deals on fashion brands<br>
+                AbeBooks | Books, art & collectibles<br>
+                ACX | Audiobook Publishing Made Easy<br>
+                Sell on Amazon | Start a Selling Account<br>
+                Veeqo | Shipping Software Inventory Management
+            </p5>
+        </div>
+    </footer>
+</body>
+</html>
